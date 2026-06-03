@@ -4,7 +4,7 @@ var b=20
 var sum=a+b
 console.log(sum)
 
-//areA
+//Area
 let length=20
 let breadth=20
 let area=length*breadth
