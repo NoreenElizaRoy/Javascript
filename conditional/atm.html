@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+let balance = 10000;
+
+let choice = Number(prompt(
+    "1. Balance\n2. Deposit\n3. Withdraw"
+));
+
+switch(choice) {
+    case 1:
+        alert("Balance: ₹" + balance);
+        break;
+
+    case 2:
+        let deposit = Number(prompt("Enter amount to deposit:"));
+        balance += deposit;
+        alert("New Balance: ₹" + balance);
+        break;
+
+    case 3:
+        let withdraw = Number(prompt("Enter amount to withdraw:"));
+        balance -= withdraw;
+        alert("New Balance: ₹" + balance);
+        break;
+
+    default:
+        alert("Invalid Choice");
+}
+</script>
+</body>
+</html>

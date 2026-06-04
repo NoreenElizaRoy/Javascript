@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+<script>
+let num1 = Number(prompt("Enter first number:"));
+let num2 = Number(prompt("Enter second number:"));
+let op = prompt("Enter operator (+,-,*,/)");
+
+switch(op){
+    case "+":
+        alert("Sum is " + (num1 + num2));
+        break;
+
+    case "-":
+        alert("Difference is " + (num1 - num2));
+        break;
+
+    case "*":
+        alert("Product is " + (num1 * num2));
+        break;
+
+    case "/":
+        alert("Quotient is " + (num1 / num2));
+        break;
+
+    default:
+        alert("Invalid Operator");
+}
+</script>  
+    
+</body>
+</html>
