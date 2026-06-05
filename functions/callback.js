@@ -103,9 +103,8 @@ execute(exec);
 function delays(callback)
 {
     console.log("main execution");
-    setTimeout(()=>{
-        callback();
-    },3000);
+    setTimeout(
+        ()=>{callback();} , 3000);
 }
 
 delays (

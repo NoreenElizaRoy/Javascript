@@ -13,7 +13,7 @@ const even = numbers.filter(num=>(num%2==0));
 console.log(even);
 
 //reduce
-const sum=numbers.reduce((acc,num)=>
+const sum = numbers.reduce((acc,num)=>
 {
     return acc+num;
 },0);
