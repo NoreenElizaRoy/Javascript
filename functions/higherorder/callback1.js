@@ -87,14 +87,23 @@ discountprice(1000,disaccounttwenty);
 
 
 //Create a function that processes student data using a callback.
-const student=[
+const students=[
     {name:"noreen",mark:40},
+    {name:"nora",mark:60},
+    
+
 ];
 
 function process(student,callback)
 {
    console.log("Student data");
-   callback(student);
+   
+   students.forEach(student=>
+   {
+    callback(student);
+   }
+   )
+  
 }
 
 const result = (student) => {

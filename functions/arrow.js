@@ -11,7 +11,7 @@
  name();
 // Create an arrow function that takes a number and prints it.
 const prompt = require("prompt-sync")();
-const num =() =>{
+const num = () =>{
     let num=Number(prompt("enter the number"));
     console.log("number is ",num);
 }
